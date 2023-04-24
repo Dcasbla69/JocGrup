@@ -5,7 +5,7 @@ extends KinematicBody2D
 # var a = 2
 # var b = "text"
 var movespeed = 50
-
+export var hp = 10
 onready var player = get_parent().get_node("Player")
 
 
