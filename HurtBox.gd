@@ -1,6 +1,6 @@
 extends Area2D
 
 
-export.enum("Cooldown", "HitOnce", "DissableHitBox") var HurtBoxType = 0
-  
 
+enum DROPOFF { Cooldown,HitOnce,DissableHitBox }
+export(DROPOFF) var HurtBoxType = DROPOFF.empty()
